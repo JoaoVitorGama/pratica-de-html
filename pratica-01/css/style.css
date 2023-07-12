@@ -1,0 +1,240 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    text-align: center;
+    color: white;
+}
+
+main section.sect_inicio > h1{
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    padding-top: 30px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
+}
+
+main section.sect_inicio p{
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    padding-top: 10px;
+    font-size: 1.1em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
+}
+
+main section.sect_inicio p.rb{
+    padding-bottom: 10px;
+}
+
+main nav{
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
+}
+
+nav a{
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+}nav a:hover{
+    transition: .5s;
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+    border-radius: 10px;
+}
+
+main section.sect_inicio{
+    min-height: 100vh;
+    background-image: url(../imagens/background-de-\ machado-de-assis.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main section.conteudo{
+    padding: 20px;
+    text-align: start;
+    color: black;
+    line-height: 28px;
+}
+
+main section.conteudo div.conteudo_img img, picture{
+    padding: 10px; 
+}
+
+main section.conteudo div.conteudo_img #img01, #img1{
+    width: 50%;
+}
+
+main section.conteudo div.conteudo_img #img02, #img2{
+    width: 55%;
+}
+
+main section.conteudo div.conteudo_img #img03, #img3{
+    width: 55%;
+}
+
+main section.conteudo h1{
+    font-size: 2.5em;
+    padding: 15px 0px 25px 0px;
+}
+
+main section.conteudo h2{
+    padding: 20px 20px 10px 20px;
+    font-size: 2em;
+}
+
+main section.conteudo p.inf{
+    padding: 15px 20px 15px 20px;
+    font-size: 1.1em;
+    text-indent: 25px;
+}
+
+main section.conteudo p.citação{
+    padding: 0px 20px 15px 50px;
+}
+
+main section.conteudo aside{
+    font-size: 0.9em;
+    padding-left: 20px;
+}
+
+/* Curiosidades 01 */
+
+main section#curiosidades01{
+    background-image: url(../imagens/imagem\ 01.jfif);
+    background-position: center top;
+}
+
+main section#curiosidades02{
+    background-image: url(../imagens/imagem-4.jpg);
+    background-position: center bottom;
+}
+
+main section#curiosidades03{
+    background-image: url(../imagens/imagen-5.jpg);
+    background-position: center top;
+}
+
+main section#curiosidades04{
+    background-image: url(../imagens/imagen-8.jpg);
+    background-position: center center;
+}
+
+main section#curiosidades05{
+    background-image: url(../imagens/imagen-9.webp);
+    background-position: center center;
+}
+
+main section#curiosidades06{
+    background-image: url(../imagens/imagen-10.jpg);
+    background-position: right center;
+}
+
+
+
+/* main section#curiosidades04{
+
+} */
+
+main section.curio{
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: start; 
+    box-shadow: inset 0px 0px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+main section.curio h1{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px 40px 10px 40px;
+    margin: 80px 0px 10px 20px;
+    font-size: 1.5em;
+    display: inline-block;
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0);
+}
+
+main section.curio h2{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 1.7em;
+    padding: 20px 50px 10px 50px;
+    margin: 15px 10vw 0px 10vw; 
+    border-radius: 20px 20px 0px 0px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0);
+}
+
+main section.curio p{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px 50px 25px 50px;
+    margin: 0px 10vw 85px 10vw;
+    text-indent: 25px;
+    display: inline-block;
+    border-radius: 0px 0px 20px 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+main section.curio strong{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+main section.curio article.corpo{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px 0px;
+}
+
+footer aside{
+    text-align: center;
+}
+
+footer p{
+    padding: 5px 25px;
+    font-size: 1.1em;
+    display: inline-block;
+}
+
+footer aside.sobre h3{
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+footer aside.creditos h3{
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+footer aside.gratidao h3{
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+footer .creditos a, a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}footer .creditos a:hover, a:hover{
+    color: cyan;
+    text-decoration: underline;
+    transition: .5s;
+}
+
+
+
+
+
+
